@@ -20,9 +20,5 @@ function sendTelegram(text: string) {
   );
 }
 
-async function main() {
-  await sendTelegram("First message");
-  await sendTelegram("Second message _with_ *Markdown*");
-}
-
-main();
+await sendTelegram("First message");
+await sendTelegram("Second message _with_ *Markdown*");
